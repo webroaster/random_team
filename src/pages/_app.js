@@ -8,7 +8,7 @@ export default function App(props) {
   return (
     <>
       <Head>
-        <title>サクッとチーム分け | {process.env.NEXT_PUBLIC_PAGE_TITLE}</title>
+        <title>サクッとチーム分け | ランダムチーム</title>
         <meta
           name='viewport'
           content='minimum-scale=1, initial-scale=1, width=device-width'
