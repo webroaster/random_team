@@ -8,10 +8,14 @@ export default function App(props) {
   return (
     <>
       <Head>
-        <title>サクッとチーム分け | ランダムチーム</title>
+        <title>サクッとチーム錬成 | ランダムチーム</title>
         <meta
           name='viewport'
           content='minimum-scale=1, initial-scale=1, width=device-width'
+        />
+        <meta
+          name='description'
+          content='サクッとチーム錬成 | メンバーと組数を指定して、ランダムにメンバーを振り分けます。'
         />
       </Head>
 
