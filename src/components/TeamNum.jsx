@@ -5,6 +5,7 @@ const TeamNum = ({ teamNumber, setTeamNumber }) => {
     <div className='flex flex-row items-end justify-center w-[100%]'>
       <NumberInput
         placeholder='組数'
+        size='md'
         className='block w-[100%]'
         value={teamNumber}
         onChange={setTeamNumber}
