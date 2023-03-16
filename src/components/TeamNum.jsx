@@ -2,7 +2,7 @@ import { NumberInput } from "@mantine/core"
 
 const TeamNum = ({ teamNumber, setTeamNumber }) => {
   return (
-    <div className='flex flex-row items-end justify-center w-[100%]'>
+    <div className='flex flex-row items-end'>
       <NumberInput
         placeholder='組数'
         size='md'
@@ -11,7 +11,7 @@ const TeamNum = ({ teamNumber, setTeamNumber }) => {
         onChange={setTeamNumber}
         min={1}
       />
-      <span className='block ml-4 text-sm'>組</span>
+      <span className='block ml-4 text-md'>組</span>
     </div>
   )
 }

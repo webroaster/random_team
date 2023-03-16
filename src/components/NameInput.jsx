@@ -7,7 +7,7 @@ const NameInput = ({ users, setUsers }) => {
 
   const addUser = (e) => {
     e.preventDefault()
-    setUsers([...users, newUser])
+    setUsers([newUser, ...users])
     setNewUser("")
     inputRef.current.focus()
   }

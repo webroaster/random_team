@@ -2,7 +2,6 @@ import { useState } from "react"
 import CalcTeam from "../components/CalcTeam"
 import Layout from "../components/Layout"
 import NameInput from "../components/NameInput"
-import Result from "../components/Result"
 import TeamNum from "../components/TeamNum"
 import UserList from "../components/UserList"
 
